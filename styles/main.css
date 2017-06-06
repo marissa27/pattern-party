@@ -1,0 +1,27 @@
+@import url('header.css');
+@import url('accordion.css');
+@import url('header-ex.css');
+@import url('flexcards.css');
+@import url('button.css');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.type-title {
+  display: flex;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.title-type {
+  width: 20%;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.title-line {
+  width: 80%;
+  border: .5px solid #D1D2D3;
+  height: 0;
+}

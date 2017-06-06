@@ -1,0 +1,48 @@
+header {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px 50px;
+  background-color: #2F2235;
+}
+
+h1 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.titles {
+  display: flex;
+}
+
+.secondary-title {
+  margin-left: 3px;
+  color: #34D1D1;
+}
+
+.name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header-line {
+  display: none;
+}
+
+@media only screen and (max-width: 435px)  {
+
+  header {
+    flex-direction: column;
+    height: 80px;
+    padding: 20px 0;
+  }
+
+  .header-line {
+    display: block;
+    width: 80px;
+    border-color: #666;
+  }
+}
